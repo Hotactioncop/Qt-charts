@@ -1,56 +1,22 @@
 <RCC>
     <qresource prefix="/">
-        <file>Images/add.png</file>
         <file>Images/analytics.png</file>
         <file>Images/arrow.ico</file>
         <file>Images/atrchart.ico</file>
         <file>Images/barchart.ico</file>
-        <file>Images/bar-chart1.png</file>
         <file>Images/barchart2.ico</file>
-        <file>Images/bar-chart2.png</file>
-        <file>Images/bar-chart3.png</file>
-        <file>Images/Bear.ico</file>
-        <file>Images/bitcoin.png</file>
-        <file>Images/Bull.ico</file>
-        <file>Images/buttonOff.ico</file>
-        <file>Images/buttonOn.ico</file>
-        <file>Images/calendar.png</file>
-        <file>Images/candlestick.png</file>
-        <file>Images/candlestick1.png</file>
-        <file>Images/close.png</file>
         <file>Images/closeHand.ico</file>
         <file>Images/crossCursor.ico</file>
-        <file>Images/cursor.png</file>
         <file>Images/D.ico</file>
         <file>Images/diagonalLine.ico</file>
-        <file>Images/div.png</file>
-        <file>Images/edit.png</file>
-        <file>Images/enterprise.png</file>
-        <file>Images/eye.png</file>
         <file>Images/fibbonacci.ico</file>
-        <file>Images/filter.png</file>
         <file>Images/fingerHand.ico</file>
-        <file>Images/fox.png</file>
-        <file>Images/growth.png</file>
         <file>Images/H.ico</file>
-        <file>Images/hand.png</file>
         <file>Images/horizontalLine.ico</file>
-        <file>Images/icon_results.png</file>
         <file>Images/linechart.ico</file>
-        <file>Images/line-chart.png</file>
-        <file>Images/line-chart1.png</file>
         <file>Images/M.ico</file>
-        <file>Images/money.png</file>
-        <file>Images/mul.png</file>
-        <file>Images/openHand.ico</file>
-        <file>Images/plus.png</file>
-        <file>Images/remove.png</file>
-        <file>Images/safe.png</file>
         <file>Images/settings.ico</file>
-        <file>Images/statistics.png</file>
         <file>Images/straightLine.ico</file>
-        <file>Images/target.png</file>
-        <file>Images/uuw.ico</file>
         <file>Images/verticalLine.ico</file>
         <file>Images/volume.ico</file>
         <file>Images/volume2.ico</file>
