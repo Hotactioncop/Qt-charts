@@ -1,16 +1,13 @@
 <RCC>
     <qresource prefix="/">
-        <file>Images/analytics.png</file>
         <file>Images/arrow.ico</file>
         <file>Images/atrchart.ico</file>
         <file>Images/barchart.ico</file>
         <file>Images/barchart2.ico</file>
-        <file>Images/closeHand.ico</file>
         <file>Images/crossCursor.ico</file>
         <file>Images/D.ico</file>
         <file>Images/diagonalLine.ico</file>
         <file>Images/fibbonacci.ico</file>
-        <file>Images/fingerHand.ico</file>
         <file>Images/H.ico</file>
         <file>Images/horizontalLine.ico</file>
         <file>Images/linechart.ico</file>
