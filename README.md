@@ -7,9 +7,9 @@ Charts available only for period 2017-2019 year and time interval like 1 minute,
 If you want to make your own paper then scroll down.
 
 Data for graphics loaded from web page:
--https://www.finam.ru/profile/akcii-usa-bats/american-express/export/
+<br />https://www.finam.ru/profile/akcii-usa-bats/american-express/export/
 
--https://www.finam.ru/profile/akcii-usa-bats/3m-co/export/
+<br />https://www.finam.ru/profile/akcii-usa-bats/3m-co/export/
 
 There are 3 views of interval graphics:
 #Candlebar:
