@@ -7,24 +7,24 @@ Charts available only for period 2017-2019 year and time interval like 1 minute,
 If you want to make your own paper then scroll down.
 
 Data for graphics loaded from web page:
-https://www.finam.ru/profile/akcii-usa-bats/american-express/export/
+-https://www.finam.ru/profile/akcii-usa-bats/american-express/export/
 
-https://www.finam.ru/profile/akcii-usa-bats/3m-co/export/
+-https://www.finam.ru/profile/akcii-usa-bats/3m-co/export/
 
-There are 3 view of interval graphic:
-Candlebar:
+There are 3 views of interval graphics:
+#Candlebar:
 ![gif](/doc/candlebar-chart.gif)
 
-Rangebar and Line chart:
+#Rangebar and Line chart:
 ![gif](/doc/stickbar-chart.gif)
 
-Also available volume charts:
+#Also available volume charts:
 ![gif](/doc/volume.gif)
 
-Cross cursor and Fibbonacci lines:
+#Cross cursor and Fibbonacci lines:
 ![gif](/doc/cursor-fibbonacci.gif)
 
-And average true range line:
+#And average true range line:
 ![gif](/doc/atr-line.gif)
 
 If you wish to load another paper, then follow this view while loading from www.finam.ru
