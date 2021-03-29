@@ -1,22 +1,7 @@
 <RCC>
     <qresource prefix="/">
-        <file>Images/arrow.ico</file>
         <file>Images/atrchart.ico</file>
         <file>Images/barchart.ico</file>
-        <file>Images/barchart2.ico</file>
-        <file>Images/crossCursor.ico</file>
-        <file>Images/D.ico</file>
-        <file>Images/diagonalLine.ico</file>
-        <file>Images/fibbonacci.ico</file>
-        <file>Images/H.ico</file>
-        <file>Images/horizontalLine.ico</file>
-        <file>Images/linechart.ico</file>
-        <file>Images/M.ico</file>
-        <file>Images/settings.ico</file>
-        <file>Images/straightLine.ico</file>
-        <file>Images/verticalLine.ico</file>
-        <file>Images/volume.ico</file>
-        <file>Images/volume2.ico</file>
         <file>Docs/3M_1M_01.01.2017_31.12.2017.txt</file>
         <file>Docs/3M_1M_01.01.2018_31.12.2018.txt</file>
         <file>Docs/3M_1M_01.01.2019_31.12.2019.txt</file>
@@ -48,5 +33,44 @@
         <file>Docs/America Express_H_01.01.2017_31.12.2017.txt</file>
         <file>Docs/America Express_H_01.01.2018_31.12.2018.txt</file>
         <file>Docs/America Express_H_01.01.2019_31.12.2019.txt</file>
+        <file>Images/cross.png</file>
+        <file>Images/fibbonacci.png</file>
+        <file>Images/analytics.png</file>
+        <file>Images/analytic.png</file>
+        <file>Images/analytic2.png</file>
+        <file>Images/atrchart.png</file>
+        <file>Images/barchart.png</file>
+        <file>Images/barchart2.png</file>
+        <file>Images/barchart3.png</file>
+        <file>Images/barchart4.png</file>
+        <file>Images/barchart5.png</file>
+        <file>Images/barchart6.png</file>
+        <file>Images/barchart7.png</file>
+        <file>Images/linechart.png</file>
+        <file>Images/piechart.png</file>
+        <file>Images/piechart2.png</file>
+        <file>Images/piechart3.png</file>
+        <file>Images/piechart4.png</file>
+        <file>Images/presentation.png</file>
+        <file>Images/presentation2.png</file>
+        <file>Images/pyramid.png</file>
+        <file>Images/settings.png</file>
+        <file>Images/volume.png</file>
+        <file>Images/volume2.png</file>
+        <file>Images/volume3.png</file>
+        <file>Images/volume4.png</file>
+        <file>Images/worldmap.png</file>
+        <file>Images/arrow.png</file>
+        <file>Images/resizeDiagonalLR.png</file>
+        <file>Images/resizeDiagonalRL.png</file>
+        <file>Images/resizeHorizontal.png</file>
+        <file>Images/resizeVertical.png</file>
+        <file>Images/arrowDown.png</file>
+        <file>Images/atrchartOff.png</file>
+        <file>Images/barchart2Off.png</file>
+        <file>Images/barchartOff.png</file>
+        <file>Images/linechartOff.png</file>
+        <file>Images/volume2Off.png</file>
+        <file>Images/volumeOff.png</file>
     </qresource>
 </RCC>

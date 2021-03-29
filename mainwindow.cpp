@@ -73,6 +73,8 @@ MainWindow::MainWindow(QWidget *parent)
       return;
     if (ui->comboBox->currentIndex() == 0)
       return;
+    if(ui->dateFrom->date()>ui->dateTo->date())
+        return;
     if (ui->comboBox->currentIndex() == 1) {
       format_type = min1;
     }
