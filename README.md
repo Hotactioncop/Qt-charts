@@ -3,26 +3,22 @@
 Simple charts based on QGraphicsView and QGraphicsItems.
 No need to use QCharts library.
 
+Charts available only for period 2017-2019 year and time interval like 1 minute, 15 minutes, 30 minutes, 1 hour, 1 day, 1 week and 1 month.
+If you want to make your own paper then scroll down.
+
 Data for graphics loaded from web page:
 https://www.finam.ru/profile/akcii-usa-bats/american-express/export/
+
 https://www.finam.ru/profile/akcii-usa-bats/3m-co/export/
 
-If you wish to load another paper, then follow this view while loading from www.finam.ru
-<TICKER>	<PER>	<DATE>	<TIME>	<OPEN>	<HIGH>	<LOW>	<CLOSE>	<VOL>
-3M	1	03/01/17	17:31:00	179.1900000	179.2900000	179.1500000	179.2900000	3240
-3M	1	03/01/17	17:32:00	179.2400000	179.6500000	179.2400000	179.6300000	700
-3M	1	03/01/17	17:33:00	179.6499000	180.0000000	179.6499000	179.9300000	9249
-3M	1	03/01/17	17:34:00	179.9700000	179.9700000	179.8800000	179.8800000	700
-3M	1	03/01/17	17:35:00	179.8700000	179.9100000	179.7900000	179.9100000	1599
-3M	1	03/01/17	17:36:00	179.9100000	179.9700000	179.5300000	179.5300000	2000
-
 There are 3 view of interval graphic:
-Candlenar:
+Candlebar:
 ![gif](/doc/candlebar-chart.gif)
-Rabgenar and Line chart:
+
+Rangebar and Line chart:
 ![gif](/doc/stickbar-chart.gif)
 
-Also available volume chart:
+Also available volume charts:
 ![gif](/doc/volume.gif)
 
 Cross cursor and Fibbonacci lines:
@@ -30,3 +26,9 @@ Cross cursor and Fibbonacci lines:
 
 And average true range line:
 ![gif](/doc/atr-line.gif)
+
+If you wish to load another paper, then follow this view while loading from www.finam.ru
+![preview](./doc/FileFormat.png)
+
+And split data by year and time period (minute, 15min, 30min, hour, day, week, month) as shown in the picture below:
+![preview](./doc/FileFolder.png)
