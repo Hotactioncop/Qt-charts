@@ -299,8 +299,10 @@ MainWindow::MainWindow(QWidget *parent)
     if (atr != nullptr) {
       delete atr;
     }
-    atr = new AtrForm();
+    atr = new AtrForm(this);
+    atr->setGeometry(width()/2-atr->width()/2, height()/2-atr->height()/2,atr->width(),atr->height());
     atr->show();
+    //canceled
     connect(atr, SIGNAL(createAverageLine(int, QColor)), this,
             SLOT(movingAverage(int, QColor)));
   });

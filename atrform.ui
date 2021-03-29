@@ -6,52 +6,156 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>317</width>
-    <height>52</height>
+    <width>318</width>
+    <height>85</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>317</width>
+    <height>85</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>Добавить среднюю скользящую</string>
   </property>
-  <layout class="QGridLayout" name="gridLayout">
-   <item row="0" column="1">
-    <widget class="QLineEdit" name="lineEditATR">
-     <property name="inputMethodHints">
-      <set>Qt::ImhPreferNumbers</set>
-     </property>
-    </widget>
-   </item>
-   <item row="0" column="2">
-    <widget class="QPushButton" name="pushButton">
-     <property name="maximumSize">
-      <size>
-       <width>23</width>
-       <height>23</height>
-      </size>
-     </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QWidget" name="widget" native="true">
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(252, 255, 46);</string>
+      <string notr="true">QWidget#widget{
+border: 1px solid #cd8731;
+background-color: #313233;
+color: gray;
+border-radius: 4px;
+}</string>
      </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="flat">
-      <bool>false</bool>
-     </property>
-    </widget>
-   </item>
-   <item row="0" column="0">
-    <widget class="QLabel" name="label">
-     <property name="text">
-      <string>Средняя скользящая</string>
-     </property>
-    </widget>
-   </item>
-   <item row="0" column="3">
-    <widget class="QPushButton" name="buttonLoad">
-     <property name="text">
-      <string>Загрузить</string>
-     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string notr="true">color: gray</string>
+        </property>
+        <property name="text">
+         <string>Average true range</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="lineEditATR">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 1px solid #cd8731;
+border-radius: 4px;</string>
+        </property>
+        <property name="inputMethodHints">
+         <set>Qt::ImhPreferNumbers</set>
+        </property>
+        <property name="maxLength">
+         <number>3</number>
+        </property>
+        <property name="placeholderText">
+         <string>Set digit here</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QPushButton" name="pbColor">
+        <property name="minimumSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: rgb(252, 255, 46);
+	border-radius: 12px;
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QPushButton" name="pbLoad">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+background-color: #cd8731;
+border-radius: 4px;
+color: #ffffff;
+font-size: 12pt;
+border: none;
+}
+QPushButton:hover {
+background-color: rgb(229,161,87);
+border-radius: 4px;
+color: #ffffff;
+font-size: 12pt;
+border: none;
+}</string>
+        </property>
+        <property name="text">
+         <string>Load</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QPushButton" name="pbCancel">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+padding: 4px;
+border-radius: 4px;
+color: #ffffff;
+font-size: 12pt;
+border: 1px solid #cd8731;
+}
+QPushButton:hover {
+border-radius: 4px;
+color: #ffffff;
+font-size: 12pt;
+border: 1px solid rgb(229,161,87);
+}</string>
+        </property>
+        <property name="text">
+         <string>Cancel</string>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </widget>
    </item>
   </layout>

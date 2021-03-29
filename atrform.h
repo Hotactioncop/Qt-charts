@@ -22,6 +22,7 @@ private:
     Ui::AtrForm *ui;
 signals:
     void createAverageLine(int,QColor);
+    void canceled();
 };
 
 #endif // ATRFORM_H
