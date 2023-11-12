@@ -1,7 +1,6 @@
 # Qt-charts
 
-Simple charts based on QGraphicsView and QGraphicsItems.
-No need to use QCharts library.
+Charts example based on QGraphicsView and QGraphicsItems without using QCharts library.
 
 Charts available only for period 2017-2019 year and time interval like 1 minute, 15 minutes, 30 minutes, 1 hour, 1 day, 1 week and 1 month.
 If you want to make your own paper then scroll down.
